@@ -1,0 +1,9 @@
+.wrap {
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+}
