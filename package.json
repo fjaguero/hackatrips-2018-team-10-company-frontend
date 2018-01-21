@@ -23,12 +23,14 @@
     "react-app-rewired": "^1.4.0",
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7",
+    "serve": "^6.4.8",
     "styled-components": "^2.4.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build -p 8080"
   }
 }
